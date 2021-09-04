@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 500px;
+    
+}
+.main-header{
+    padding: 0;
+    position: relative;
+
+}
+.main-header nav{
+    background-color: #161F2A;
+    text-align: right;
+    overflow: auto;
+}
+
+
+
+.main-header .logo-header{
+    float: left;
+    margin-left: 150px;
+}
+
+.main-header ul{
+    margin-top: 4px;
+    margin-right: 42px;
+    list-style: none;
+    float: right; 
+}
+.main-header li a{
+    color: #CCC;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 5px 5px 5px 5px;
+    font-size: 0.75rem;
+    color: #9c9ea1;
+}
+a:hover{
+    background: #536e8f;
+    color: white;
+}
+
+.main-header ul li{
+    display: inline-block;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+
+.main-header figure{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header figure img{
+    width: 100%;
+}
+
+/* Primeira Section */
+.descricao{
+    margin: 60px 0;
+}
+.descricao h1{
+    margin: 20px;
+    text-align:center;
+}
+
+.descricao p{
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+.descricao .cards{
+    text-align: center;
+    margin: 50px auto 50px;
+}
+.descricao .cards figure{
+    display: inline-block;
+}
+.cards .figmeio{
+    margin: 0 16px;
+}
+
+.figcaption-titulo{
+    color:#6F6354;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.figcaption-subtitulo{
+    color:#6F6354;
+    
+    font-size: 0.9rem;
+}
+/* Segunda Section */
+
+.descricao2{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-color: #003D52;
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right bottom;
+    padding: 41px 77px;
+}
+
+.descricao2 h1{
+    text-transform: uppercase;
+    color: white;
+    margin-top: 30px;
+    font-size: 2.3rem;
+    font-weight: 200;
+
+}
+.descricao2 p{
+    margin-top: 60px;
+    color: white;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+/* parte do telefone e mapa */
+
+#telefone{
+    text-align: center;
+    margin: 30px 0 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#003D52;
+    font-size: 1.5rem;
+}
+
+.map{
+    width: 100%;
+}
+
+footer{
+    margin-top: 40px;
+    background: #001018;
+    letter-spacing: 2px;
+    text-align: center;
+    /* height: 43px; */
+    color: #5b8296;
+    padding: 15px;
+    font-size: 0.7rem;
+}
